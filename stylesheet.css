@@ -1,0 +1,60 @@
+body { 
+	margin: 0px;
+	background-image: url(forest.jpg);
+	font-family: sans-serif, Arial;
+	
+}
+
+main {
+	margin-left: 300px;
+	margin-right: 300px;
+	background-color: hsl(0, 0%, 100%);
+	border: thick double hsl(36, 100%, 35%);
+}
+.center { 
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	
+}
+table {
+	border: thick double hsl(36, 100%, 35%);
+	width: 50%;
+	margin: auto;
+}
+header {
+	background-image: url(forest.jpg);
+
+}
+h2 { 
+	text-align: center;
+	text-color: hsl(36, 100%, 35%);
+}
+
+.navbar ul {
+	list-style-type: none;
+	background-color: hsl(36, 100%, 35%);
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+.navbar a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	padding: 15px;
+}
+.navbar a:hover {
+	background-color: #75430F;
+}
+
+.navbar li {
+	float: left;
+	display: inline;
+}
+footer {
+ 	text-align: center;
+	color: hsl (0, 0%, 100%);
+	background-color: hsl(36, 100%, 35%);
+
